@@ -75,6 +75,7 @@ header, footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
 }
 .icon {
     color: var(--color2);
@@ -91,4 +92,7 @@ header, footer {
 }
 .author img {
     max-width: 260px;
+}
+.forwhom a {
+margin-left: 560px;
 }
