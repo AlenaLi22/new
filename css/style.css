@@ -94,5 +94,8 @@ header, footer {
     max-width: 260px;
 }
 .forwhom a {
-margin-left: 560px;
+
+}
+.about, .program {
+    background-color: #eeeeee;
 }
