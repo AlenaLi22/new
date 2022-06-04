@@ -93,9 +93,18 @@ header, footer {
 .author img {
     max-width: 260px;
 }
-.forwhom a {
-
-}
-.about, .program {
+.about, .program, .reviews {
     background-color: #eeeeee;
+}
+.people img{
+    border: 3px solid var(--color1);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.line2 {
+    width: 100px;
+    height: 3px;
+    margin: 15px auto 30px;
+    background-color: var(--color2);
 }
