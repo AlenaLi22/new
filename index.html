@@ -122,10 +122,84 @@
       <div class="col-12">      
       <h1 class="text-center" style="color:#05b1b1">ПРОГРАММА КУРСА</h1>
     </div>
-<div class="row">
+<div class="row mt-5">
   <div class="col-md-4 col-sm-12">
-    <h4 class="text-center">Модуль 1 <br>(HTML)</h4>
-
+    <h4 class="text-center fw-bold">Модуль 1 <br>(HTML)</h4>
+    <div class="accordion" id="accordion1">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            Введение
+          </button>
+        </h2>
+        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion1">
+          <div class="accordion-body">
+            <p>Краткий обзор того, что мы будем изучать в данном видео курсе.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            Установка браузера и редактора кода
+          </button>
+        </h2>
+        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion2">
+          <div class="accordion-body">
+            <p>В этом уроке мы установим браузер Google Chrome и редактор кода VS Code.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            Обзор функций редактора
+          </button>
+        </h2>
+        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion3">
+          <div class="accordion-body">
+            <p>Рассмотрим функции редактора VS Code и узнаем как с ним работать.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading4">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+          Первые HTML теги
+          </button>
+        </h2>
+        <div id="collapse4" class="accordion-collapse collapse show" aria-labelledby="heading4" data-bs-parent="#accordion4">
+          <div class="accordion-body">
+            <p>Выучим свои первые HTML теги, с помощью которых и создаются любые сайты.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading5">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            Как задавать путь к файлу
+          </button>
+        </h2>
+        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion5">
+          <div class="accordion-body">
+            <p>Научимся правильно указывать путь к файлам изображений и другим страницам сайта.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading6">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+            Создание списка
+          </button>
+        </h2>
+        <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordion6">
+          <div class="accordion-body">
+            <p>Научимся создавать списки на своем сайте.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -133,22 +207,22 @@
 </div>
 </section>
 
-<section class="author">
+<section class="author pb-0">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 mb-5 mt-5">
         <h1 class="text-center" style="color:#05b1b1">ОБ АВТОРЕ</h1>
       </div>
       <div class="row">
-        <div class="col-xl-8 col-lg-12">
+        <div class="col-md-9 col-sm-12">
           <h4>Исмаил Усеинов</h4>
           <p>Занимаюсь веб-разработкой с 2013 года.</p>
           <p>В 2017 году основал обучающий YouTube канал ITDoctor. Делюсь своими знаниями в области программирования и создания сайтов. Сформировал свою собственную методику обучения, которая позволяет ученикам максимально эффективно осваивать изучаемый материал.</p>
         <p>Обучаю языкам HTML, CSS, JavaScript, PHP, работе с препроцессорами, сборщиками и системой контроля версий Git, а также многому другому из мира веб-технологий. Уже более тысячи моих учеников научились создавать сайты самостоятельно и зарабатывать на этом деньги.</p>
         <p>В этом видео курсе я хочу научить вас основам сайтостроения - это языки HTML и CSS. Эти языки являются основой и знать их должен каждый, кто хочет развиваться в этой области. Вы получите знания, которые нужны в самом начале пути любого веб-разработчика и будите их использовать на протяжение всего своего пути. Вся теоретическая информация разложена по полочкам, доступно объясняется и подкрепляется практическими заданиями и домашними работами. Курс намерено не содержит лишней информации, тем самым позволяет лучше освоить материал, который действительно важен.</p>
         </div>
-        <div class="col-xl-3 col-lg-12 text-center">
-          <img src="img/author.png" alt="author.png">
+        <div class="col-md-3 col-sm-12">
+          <img src="img/author.png" alt="author.png" class="img-fluid">
         </div>
       </div>
 
@@ -166,9 +240,9 @@
   <div class="row people">
     <div class="col-12 text-center mt-5">
       <img src="img/people.jpg" alt="people.jpg"></div>
-      <div class="row col-xl-3 col-sm-12">
-      <h4>Кристина Трибой</h4>
-      <p>Исмаил, спасибо Вам большое! Очень толковый курс у Вас получился, обучение прошло легко и интересно. Узнала много нового, отдельное спасибо за большое количество полезной информации в конце, очень пригодится в работе и сэкономит много времени. Очень рада, что открыла для себя Ваш канал.</p>
+      <div class="row col-md-6 mt-5">
+      <h4 class="text-center">Кристина Трибой</h4>
+      <p class="justify-content-center">Исмаил, спасибо Вам большое! Очень толковый курс у Вас получился, обучение прошло легко и интересно. Узнала много нового, отдельное спасибо за большое количество полезной информации в конце, очень пригодится в работе и сэкономит много времени. Очень рада, что открыла для себя Ваш канал.</p>
 <p>Мне есть с чем сравнить, т.к. начала обучение с 0 по книгам и другим источникам в интернете 6 месяцев назад и уроки на канале ITDoctor могу смело назвать лучшими для новичков. Пересмотрела уже почти все, они очень качественные, хорошо продуманные, не затянутые. Автор всегда на связи, отвечает на вопросы, помогает - просто фантастика! ITDoctor - это уже бренд! С чем Вас, Исмаил и поздравляю!</p>
     <div class="line2"></div>
 </div>
@@ -181,9 +255,10 @@
     <div class="row">
       <div class="col-12">
         <h1 class="text-center" style="color:#05b1b1">КУРС ПО HTML & CSS</h1>
-      <div class="col-xl-3">
-        <img src="img/preview.png" alt="preview.png"></div>
-      <div class="col-xl-7">
+     </div> 
+     <div class="col-md-9 col-sm-12">
+        <img src="img/preview.png" alt="preview.png" class="img-fluid"></div>
+      <div class="col-md-3 col-sm-12">
         <p>Обучающий курс по изучению языка гипертекстовой разметки HTML и каскадных таблиц стилей CSS от автора образовательного канала ITDoctor. Это практический видеокурс: в каждой главе теоретический материал будет закрепляться множеством наглядных примеров кода.</p>
       <ul>
         <li>35 практических уроков</li>
@@ -195,7 +270,7 @@
       <div class="col-12 text-center">
         <a href="#footer" class="order_btn btn btn-lg text-center">КУПИТЬ</a>
     </div>
-    </div>
+    
     </div>
   </div>
 </section>
