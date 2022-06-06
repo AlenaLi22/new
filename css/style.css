@@ -116,3 +116,17 @@ header, footer {
     background-color: var(--color2);
     box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
 }
+.img-fluid {
+    max-width: 460px;
+}
+.btn-outline-light {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.btn-outline-light i {
+    font-size: 30px;
+}
